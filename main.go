@@ -1,12 +1,12 @@
 package main
 
 import (
-	"./db"
-	logger "./log"
+	"helloapp/db"
+	"helloapp/log"
 )
 
 func main() {
 	db.HelloDB()
 	db.HelloDataB()
-	logger.HelloLog()
+	log.HelloLog()
 }
